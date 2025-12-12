@@ -102,7 +102,7 @@ export function NetherlandsMap({
                   <button
                     onClick={() => onSelectParticipant(marker.id)}
                     className={cn(
-                      "absolute w-5 h-5 rounded-full shadow-lg transform -translate-x-1/2 -translate-y-1/2 transition-all duration-200 border-2 border-card z-10",
+                      "absolute w-3 h-3 rounded-full shadow-md transform -translate-x-1/2 -translate-y-1/2 transition-all duration-200 border border-card z-10",
                       selectedId === marker.id && "ring-2 ring-foreground ring-offset-2 ring-offset-card scale-125 z-20",
                       marker.busNr === 1 && "bg-bus-1",
                       marker.busNr === 2 && "bg-bus-2",
